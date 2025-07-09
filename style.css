@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eef3f8;
+  margin: 0;
+}
+header {
+  background: #004080;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+nav a {
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+.hero {
+  background: linear-gradient(to right, #0077cc, #004080);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.form-box {
+  background: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input, textarea, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+}
